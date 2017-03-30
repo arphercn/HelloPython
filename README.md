@@ -1,4 +1,4 @@
-
+﻿
 	#!/usr/bin/env python3
 	# -*- coding: utf-8 -*-
 ##python版本问题解决方法
@@ -14,10 +14,11 @@
 	安装方法:
 		首先安装python27,安装选项不安装环境变量
 		再安装python35 安装环境变量,所有用户 使用打勾
+		path 添加D:\Posoft\Python\Python27\Scripts
 		
 	使用方法
-		命令行py  启动27版本 或使用py -2
-		命令行python 启动35版本 或使用py-3
+		27版本 启动: 命令行py或使用py -2  使用pip install
+		35版本 启动: 命令行python或使用py-3 使用pip2 install
 ### 2 解决不同项目依赖不同库,python版本问题
 	pip install virtualenv  把virtualenv 安装到python3的库
 	
